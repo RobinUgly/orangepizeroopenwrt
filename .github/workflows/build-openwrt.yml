@@ -69,7 +69,7 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P1_SH
         
     - name: Update ipk
-      run: cd lede/package && git clone https://github.com/kenzok8/openwrt-packages.git
+      run: cd openwrt/lede/package && git clone https://github.com/kenzok8/openwrt-packages.git
       
     - name: get small
       run: git clone https://github.com/kenzok8/small.git
